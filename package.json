@@ -1,0 +1,46 @@
+{
+  "name": "react-svg-placeholder-ts",
+  "version": "1.0.0",
+  "description": "Lightweight svg placeholder generator",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TarikTz/react-svg-placeholder.git"
+  },
+  "keywords": [
+    "svg",
+    "placeholder"
+  ],
+  "author": "Tarik Omercehajic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TarikTz/react-svg-placeholder/issues"
+  },
+  "homepage": "https://github.com/TarikTz/react-svg-placeholder#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
