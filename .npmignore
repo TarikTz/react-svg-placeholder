@@ -1,0 +1,11 @@
+# Ignore test and dev files from npm package
+src/test*
+test*
+*.test.*
+*.spec.*
+__tests__/
+.vscode/
+.gitignore
+README.md
+LICENSE
+test-app/
