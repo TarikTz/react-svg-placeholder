@@ -18,7 +18,7 @@ import { PlaceHolder } from 'react-svg-placeholder-ts';
 <PlaceHolder width={200} height={150} />
 ```
 
-### As Data URL (for <img> or Next.js <Image>)
+### As Data URL (for &lt;img&gt; or Next.js &lt;Image&gt;)
 
 ```tsx
 import { generateSvgDataUrl } from 'react-svg-placeholder-ts';
